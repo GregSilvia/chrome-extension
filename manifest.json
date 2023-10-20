@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Song Thing",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "action": {
+      "default_popup": "song.html",
+      "default_icon": "singing_fly.png"
+    }
+  }
