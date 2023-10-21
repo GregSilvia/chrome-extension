@@ -6,10 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cool Song Title Thing</title>
     <link rel="stylesheet" href="song.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/fontawesome.min.css">
   </head>
   <body>
-    <button id="startButton">Start Speech Recognition</button>
-    <p id="recognized-text"></p>
-	<script src="song.js"></script>
+    <div class="container">
+      <img src="songbird.png" alt="Your Logo" id="startButton" class="logo-button">
+      <p id="recognized-text" class="my-text"></p>
+      <img alt="Album Artwork" id="album-artwork" class="album-artwork" style="display: none;">
+      <span id="logo-text" class="logo-text">SongBird</span>
+      <div class="loading-spinner"></div>
+      <div id="api-results" class = "results">
+        <div class="circles">
+          <div class="circle1"></div>
+          <div class="circle2"></div>
+          <div class="circle3"></div>
+        </div>
+    </div>
+    <script src="song.js"></script>
   </body>
 </html>
